@@ -1,0 +1,252 @@
+
+AhmedDev@DESKTOP-9QMS60N MINGW64 ~/Desktop/learn_git_again (master)
+$ touch third.txt
+
+AhmedDev@DESKTOP-9QMS60N MINGW64 ~/Desktop/learn_git_again (master)
+$ ls
+third.txt
+
+AhmedDev@DESKTOP-9QMS60N MINGW64 ~/Desktop/learn_git_again (master)
+$ git add third.txt
+
+AhmedDev@DESKTOP-9QMS60N MINGW64 ~/Desktop/learn_git_again (master)
+$ ls
+third.txt
+
+AhmedDev@DESKTOP-9QMS60N MINGW64 ~/Desktop/learn_git_again (master)
+$ git commit -m "adding third.txt"
+[master 383d459] adding third.txt
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Desktop/learn_git_again/third.txt
+
+AhmedDev@DESKTOP-9QMS60N MINGW64 ~/Desktop/learn_git_again (master)
+$ git log
+commit 383d459e50bb674ff5db2fb240e567dcce615866 (HEAD -> master)
+Author: makniahmed-31 <makni.ahmed@gmail.com>
+Date:   Fri Aug 28 22:21:27 2020 +0200
+
+    adding third.txt
+
+commit c636fbca6e343af2bd7a2e065c078205a21a9dc1
+Author: makniahmed-31 <makni.ahmed@gmail.com>
+Date:   Fri Aug 28 11:01:51 2020 +0200
+
+    adding fourth.txt
+
+commit 8ba1cbc923584678b58fcd942bd5c37b76845179
+Author: makniahmed-31 <makni.ahmed@gmail.com>
+Date:   Fri Aug 28 10:51:53 2020 +0200
+
+    adding third.txt
+
+commit a9ddfdb8825643c7a7ff9b5b2ed5d9431475735d
+Author: makniahmed-31 <makni.ahmed@gmail.com>
+Date:   Fri Aug 28 10:41:25 2020 +0200
+
+    adding fourth.txt
+
+commit f4c5b968027d3386cc70adfb2ecc9c3ce188dd34
+Author: makniahmed-31 <makni.ahmed@gmail.com>
+Date:   Fri Aug 28 10:39:09 2020 +0200
+
+    adding third.txt
+
+AhmedDev@DESKTOP-9QMS60N MINGW64 ~/Desktop/learn_git_again (master)
+$ touch fourth.txt
+
+AhmedDev@DESKTOP-9QMS60N MINGW64 ~/Desktop/learn_git_again (master)
+$ git add fourth.txt
+
+AhmedDev@DESKTOP-9QMS60N MINGW64 ~/Desktop/learn_git_again (master)
+$ git commit -m "adding fourth.txt"
+warning: could not open directory 'Application Data/': Permission denied
+warning: could not open directory 'Cookies/': Permission denied
+warning: could not open directory 'Local Settings/': Permission denied
+warning: could not open directory 'My Documents/': Permission denied
+warning: could not open directory 'NetHood/': Permission denied
+warning: could not open directory 'PrintHood/': Permission denied
+warning: could not open directory 'Recent/': Permission denied
+warning: could not open directory 'SendTo/': Permission denied
+warning: could not open directory 'Start Menu/': Permission denied
+warning: could not open directory 'Templates/': Permission denied
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../../.bash_history
+        ../../.gitconfig
+        ../../.vscode/
+        ../../3D Objects/
+        ../../AppData/
+        ../../Contacts/
+        ../Microsoft Edge.lnk
+        ../Mysite/
+        ../Preview - Bootstrap Themes.html
+        ../Preview - Bootstrap Themes_files/
+        ../This PC - Shortcut.lnk
+        ../Visual Studio Code.lnk
+        ../desktop.ini
+        ../learn-git/
+        ../shopping-cart1/
+        ../shoppingcart-master/
+        ../../Documents/
+        ../../Downloads/
+        ../../Favorites/
+        ../../Links/
+        ../../MicrosoftEdgeBackups/
+        ../../Music/
+        ../../NTUSER.DAT
+        ../../NTUSER.DAT{891e94c6-e8bf-11ea-bc19-d3040245f623}.TM.blf
+        ../../NTUSER.DAT{891e94c6-e8bf-11ea-bc19-d3040245f623}.TMContainer00000000000000000001.regtrans-ms
+        ../../NTUSER.DAT{891e94c6-e8bf-11ea-bc19-d3040245f623}.TMContainer00000000000000000002.regtrans-ms
+        ../../OneDrive/
+        ../../Pictures/
+        ../../Saved Games/
+        ../../Searches/
+        ../../Videos/
+        ../../ntuser.dat.LOG1
+        ../../ntuser.dat.LOG2
+        ../../ntuser.ini
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+AhmedDev@DESKTOP-9QMS60N MINGW64 ~/Desktop/learn_git_again (master)
+$ ls
+fourth.txt  third.txt
+
+AhmedDev@DESKTOP-9QMS60N MINGW64 ~/Desktop/learn_git_again (master)
+$ git commit -m "adding fourth.txt"
+warning: could not open directory 'Application Data/': Permission denied
+warning: could not open directory 'Cookies/': Permission denied
+warning: could not open directory 'Local Settings/': Permission denied
+warning: could not open directory 'My Documents/': Permission denied
+warning: could not open directory 'NetHood/': Permission denied
+warning: could not open directory 'PrintHood/': Permission denied
+warning: could not open directory 'Recent/': Permission denied
+warning: could not open directory 'SendTo/': Permission denied
+warning: could not open directory 'Start Menu/': Permission denied
+warning: could not open directory 'Templates/': Permission denied
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../../.bash_history
+        ../../.gitconfig
+        ../../.vscode/
+        ../../3D Objects/
+        ../../AppData/
+        ../../Contacts/
+        ../Microsoft Edge.lnk
+        ../Mysite/
+        ../Preview - Bootstrap Themes.html
+        ../Preview - Bootstrap Themes_files/
+        ../This PC - Shortcut.lnk
+        ../Visual Studio Code.lnk
+        ../desktop.ini
+        ../learn-git/
+        ../shopping-cart1/
+        ../shoppingcart-master/
+        ../../Documents/
+        ../../Downloads/
+        ../../Favorites/
+        ../../Links/
+        ../../MicrosoftEdgeBackups/
+        ../../Music/
+        ../../NTUSER.DAT
+        ../../NTUSER.DAT{891e94c6-e8bf-11ea-bc19-d3040245f623}.TM.blf
+        ../../NTUSER.DAT{891e94c6-e8bf-11ea-bc19-d3040245f623}.TMContainer00000000000000000001.regtrans-ms
+        ../../NTUSER.DAT{891e94c6-e8bf-11ea-bc19-d3040245f623}.TMContainer00000000000000000002.regtrans-ms
+        ../../OneDrive/
+        ../../Pictures/
+        ../../Saved Games/
+        ../../Searches/
+        ../../Videos/
+        ../../ntuser.dat.LOG1
+        ../../ntuser.dat.LOG2
+        ../../ntuser.ini
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+AhmedDev@DESKTOP-9QMS60N MINGW64 ~/Desktop/learn_git_again (master)
+$ git rm third.txt
+rm 'Desktop/learn_git_again/third.txt'
+
+AhmedDev@DESKTOP-9QMS60N MINGW64 ~/Desktop/learn_git_again (master)
+$ ls
+fourth.txt
+
+AhmedDev@DESKTOP-9QMS60N MINGW64 ~/Desktop/learn_git_again (master)
+$ git add .
+
+AhmedDev@DESKTOP-9QMS60N MINGW64 ~/Desktop/learn_git_again (master)
+$ git commit -m "removing third.txt"
+[master f264bd4] removing third.txt
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ delete mode 100644 Desktop/learn_git_again/third.txt
+
+AhmedDev@DESKTOP-9QMS60N MINGW64 ~/Desktop/learn_git_again (master)
+$ git log
+commit f264bd4c0684b04b395452e7f96659ded3fdd261 (HEAD -> master)
+Author: makniahmed-31 <makni.ahmed@gmail.com>
+Date:   Fri Aug 28 22:28:32 2020 +0200
+
+    removing third.txt
+
+commit 383d459e50bb674ff5db2fb240e567dcce615866
+Author: makniahmed-31 <makni.ahmed@gmail.com>
+Date:   Fri Aug 28 22:21:27 2020 +0200
+
+    adding third.txt
+
+commit c636fbca6e343af2bd7a2e065c078205a21a9dc1
+Author: makniahmed-31 <makni.ahmed@gmail.com>
+Date:   Fri Aug 28 11:01:51 2020 +0200
+
+    adding fourth.txt
+
+commit 8ba1cbc923584678b58fcd942bd5c37b76845179
+Author: makniahmed-31 <makni.ahmed@gmail.com>
+Date:   Fri Aug 28 10:51:53 2020 +0200
+
+    adding third.txt
+
+commit a9ddfdb8825643c7a7ff9b5b2ed5d9431475735d
+Author: makniahmed-31 <makni.ahmed@gmail.com>
+Date:   Fri Aug 28 10:41:25 2020 +0200
+
+    adding fourth.txt
+
+commit f4c5b968027d3386cc70adfb2ecc9c3ce188dd34
+Author: makniahmed-31 <makni.ahmed@gmail.com>
+Date:   Fri Aug 28 10:39:09 2020 +0200
+
+    adding third.txt
+
+AhmedDev@DESKTOP-9QMS60N MINGW64 ~/Desktop/learn_git_again (master)
+$ git config --global core.pager cat
+
+AhmedDev@DESKTOP-9QMS60N MINGW64 ~/Desktop/learn_git_again (master)
+$ ^C
+
+AhmedDev@DESKTOP-9QMS60N MINGW64 ~/Desktop/learn_git_again (master)
+$ touch document.txt
+
+AhmedDev@DESKTOP-9QMS60N MINGW64 ~/Desktop/learn_git_again (master)
+$ git branch -M master
+
+AhmedDev@DESKTOP-9QMS60N MINGW64 ~/Desktop/learn_git_again (master)
+$ git remote add origin https://github.com/makniahmed-31/learn_git_again.git
+
+AhmedDev@DESKTOP-9QMS60N MINGW64 ~/Desktop/learn_git_again (master)
+$ git push -u origin master
+Enumerating objects: 16, done.
+Counting objects: 100% (16/16), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (16/16), 1.18 KiB | 120.00 KiB/s, done.
+Total 16 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), done.
+To https://github.com/makniahmed-31/learn_git_again.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+AhmedDev@DESKTOP-9QMS60N MINGW64 ~/Desktop/learn_git_again (master)
+$
